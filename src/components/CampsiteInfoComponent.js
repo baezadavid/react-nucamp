@@ -9,6 +9,7 @@ function RenderCampsite({campsite}) {
             <Card>
                 <CardImg width="100%" src={campsite.image} alt={campsite.name} />
                 <CardBody>
+                    <CardTitle>{campsite.name}</CardTitle>
                     <CardText>{campsite.description}</CardText>
                 </CardBody>
             </Card>
